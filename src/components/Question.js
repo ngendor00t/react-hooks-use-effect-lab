@@ -27,6 +27,7 @@ function Question({ question, onAnswered }) {
       <h5>{timeRemaining} seconds remaining</h5>
     </>
   );
+  <h5>{timeRemaining}seconds remaining</h5>
 }
 
 export default Question;
