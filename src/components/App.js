@@ -7,7 +7,7 @@ function App() {
   const [currentQuestionId, setCurrentQuestion] = useState(1);
   const [score, setScore] = useState(0);
   const currentQuestion = questions.find((q) => q.id === currentQuestionId);
-  const Question2=''
+  
 
   function handleQuestionAnswered(correct) {
     if (currentQuestionId < questions.length) {
